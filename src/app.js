@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "About Me",
+    title: "About",
     name: "Henry Ozomgbachi",
   });
 });
@@ -67,7 +67,7 @@ app.get("/weather", (req, res) => {
         forecast: forecastData.message,
         location: data.location,
         address: req.query.address,
-        image: forecastData.image
+        image: forecastData.image,
       });
     });
   });
