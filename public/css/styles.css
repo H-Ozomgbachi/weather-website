@@ -39,6 +39,9 @@ header a {
 
 .portrait {
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 input {
@@ -57,4 +60,8 @@ button {
   background-color: #888888;
   color: white;
   padding: 8px;
+}
+
+.hidden {
+  display: none;
 }
